@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa1ef9af-5d27-45f3-9279-325277f0d4d6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="366" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1nIVX9rXd6V4ZSh0aburRkbD1AP" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abass\IdeaProjects\COT3400-Assignment2\data\results\run_3" />
+      <recent name="C:\Users\abass\IdeaProjects\COT3400-Assignment2\data\results\run_2" />
+      <recent name="C:\Users\abass\IdeaProjects\COT3400-Assignment2\data\results\run_1" />
+      <recent name="C:\Users\abass\IdeaProjects\COT3400-Assignment2\data\backup" />
+      <recent name="C:\Users\abass\IdeaProjects\COP3400-Assignment1\data\results\descending" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abass\IdeaProjects\COT3400-Assignment2\src" />
+      <recent name="C:\Users\abass\IdeaProjects\COP3400-Assignment1\data" />
+      <recent name="C:\Users\abass\IdeaProjects\COP3400-Assignment1\data\keys\descending" />
+      <recent name="C:\Users\abass\IdeaProjects\COP3400-Assignment1\data\keys\ascending" />
+      <recent name="C:\Users\abass\IdeaProjects\COP3400-Assignment1\data\keys\unsorted" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Calculate OBST">
+    <configuration name="Calculate OBST" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="COP3400-Assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="obst" />
+      <option name="VM_PARAMETERS" value="-Xmx12000m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generate Keys" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="COP3400-Assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="generate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No Argument" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="COP3400-Assignment1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.No Argument" />
+      <item itemvalue="Application.Generate Keys" />
+      <item itemvalue="Application.Calculate OBST" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa1ef9af-5d27-45f3-9279-325277f0d4d6" name="Default Changelist" comment="" />
+      <created>1611077628558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611077628558</updated>
+      <workItem from="1611077633978" duration="4400000" />
+      <workItem from="1611085906055" duration="6061000" />
+      <workItem from="1611434893884" duration="15035000" />
+      <workItem from="1611706682505" duration="21477000" />
+      <workItem from="1612462286595" duration="1495000" />
+      <workItem from="1612806067503" duration="5241000" />
+      <workItem from="1613752306355" duration="15000" />
+      <workItem from="1614103847134" duration="6614000" />
+      <workItem from="1614123486788" duration="26160000" />
+      <workItem from="1614390801277" duration="62149000" />
+      <workItem from="1614652358056" duration="16172000" />
+      <workItem from="1614733787029" duration="7043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OBSTDouble.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COT3400_Assignment2$Descending_Keys.ic" NAME="Descending Keys Coverage Results" MODIFIED="1614108331986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
