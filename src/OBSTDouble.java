@@ -38,8 +38,8 @@ public class OBSTDouble extends OBST<Double> {
    * with 5 keys, we would add [2][3] and [5][4]; then [2][2] and [4][4]; then [2][1] and [3][4].
    * We pick the lowest value, then add the probability found in the parallel w[2][4] element.
    *
-   * We fill the root matrix by recording the index of the optimal key when found with the above
-   * calculations.
+   * We fill the root matrix with the indexes that give us the minimum cost, as explained in the
+   * comments in the code below.
    */
   public void optimalBST() {
 
