@@ -1,5 +1,12 @@
 import java.io.IOException;
 
+/**
+ * Calculates and constructs an optimal binary serarch tree based off of search probabilities.
+ * Accepts either a BigDecimal or Double as a generic, which allows it to work with either data
+ * type. See OBSTBigDecimal and OBSTDouble for each implementation.
+ *
+ * @param <T> BigDecimal or Double
+ */
 public abstract class OBST<T> {
 
   /**
@@ -78,10 +85,32 @@ public abstract class OBST<T> {
   public abstract void optimalBST();
 
   /**
-   * Constructs the optimal binary search tree based on the calculations of optimalBST();
+   * Constructs the optimal binary search tree based on the calculations of optimalBST().
+   * It does so by looking at the value in root[i][j] - that is, the range of keys from i to j -
+   * and using the index stored in this element to make the root of the current sub-tree.
    *
-   * @param i
-   * @param j
+   * Let us take a tree representing 5 keys. The root of the entire tree will always be root[1][n],
+   * because this represents the range of keys 1-n, which is the entire key set. We then take the
+   * index in this element and recursively work down one side, then the other. For instance, if
+   * root[1][n] = 4, then the 3rd key will be the root of the tree.
+   *
+   * Since this leaves keys 1, 2, and 3 on the left, we need to find the optimal root of all
+   * possible roots for keys 1 through 3. This is found in root[1][3]. If this is 2, then we know
+   * that 1 is the left child and 2 is the right child.
+   *
+   * Going to the right side of of 4 is simple, as there is only one key left: 5. This leaves us
+   * with a tree with the following structure:
+   *
+   *         4
+   *        / \
+   *       2   5
+   *      / \
+   *     1   3
+   *
+   * Using this conceptual framework, we can create the algorithm in this function.
+   *
+   * @param i The lower bound of the range.
+   * @param j The upper bound of the range.
    * @param prevRoot
    */
   public void constructOBST(int i, int j, int prevRoot) {

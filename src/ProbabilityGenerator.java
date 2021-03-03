@@ -1,5 +1,10 @@
 /**
- * @param <T>
+ * Generates random numbers that simulate search probabilities for keys in a set, as well as
+ * search probabilities for keys that do not exist in the set. Accepts either a BigDecimal or Double
+ * as a generic, which allows it to work with either data type. See ProbabilityGeneratorBigDecimal
+ * and ProbabilityGeneratorDouble for each implementation.
+ *
+ * @param <T> BigDecimal or Double
  */
 public class ProbabilityGenerator<T> {
 
@@ -19,7 +24,8 @@ public class ProbabilityGenerator<T> {
   T[] pq;
 
   /**
-   * Splits the combined probabilities into separate arrays: one for real keys, one for dummy keys.
+   * Splits the pq array into the p array and the q array. That is, it splits the array containing
+   * all probabilities into two separate arrays: one for real keys, one for dummy keys.
    */
   void splitPQ() {
     for (int i = 0; i < p.length; i++) {
